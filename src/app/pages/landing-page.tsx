@@ -16,33 +16,24 @@ import { bree_serif } from '@/fonts/page'
 
 //pages
 import Footer from './componentes/footer'
-import Button_Menu from './componentes/button-menu'
 
 const Landing_Page = () => {
     return (
         <>
-            <header className="bg-gray-900 text-white py-4 px-6 flex items-center justify-between">
-                <div className="flex items-center">
-                    <Link className="flex items-center" href="#">
-                        <IoExitOutline className="h-8 w-8 mr-2" />
-                        <span className={`${bree_serif.className} text-2xl font-bold`}>Social Net</span>
-                    </Link>
+            <header className="bg-gray-900 text-white py-4 px-6">
+                <div className="flex items-center justify-between max-w-5xl mx-auto">
+                    <div className="flex items-center">
+                        <Link className="flex items-center" href="#">
+                            <IoExitOutline className="h-8 w-8 mr-2" />
+                            <span className={`${bree_serif.className} text-2xl font-bold`}>Social Net</span>
+                        </Link>
+                    </div>
+                    <nav className="hidden md:flex items-center space-x-6">
+                        <Link className="hover:underline" href="#">
+                            Register
+                        </Link>
+                    </nav>
                 </div>
-                <nav className="hidden md:flex items-center space-x-6">
-                    <Link className="hover:underline" href="#">
-                        Home
-                    </Link>
-                    <Link className="hover:underline" href="#">
-                        Discover
-                    </Link>
-                    <Link className="hover:underline" href="#">
-                        Messages
-                    </Link>
-                    <Link className="hover:underline" href="#">
-                        Profile
-                    </Link>
-                </nav>
-                <Button_Menu />
             </header>
             <main>
                 <section className="bg-gray-900 text-white py-20 px-6 flex flex-col items-center justify-center">
@@ -55,7 +46,7 @@ const Landing_Page = () => {
                         <div>
                             <IoPersonOutline className="h-10 w-10 md:h-12 md:w-12 mb-4" />
                             <h2 className="text-xl font-bold mb-2 md:text-2xl">Customize Your Profile</h2>
-                            <p className="text-gray-600 mb-4 md:text-base text-sm">Express your personality with a custom profile and cover photo.</p>
+                            <p className="text-gray-600 mb-4 md:text-base text-sm">Express your personality with a custom profile.</p>
                             <Link className="text-blue-500 hover:underline" href="#">
                                 Learn More
                             </Link>
@@ -78,8 +69,8 @@ const Landing_Page = () => {
                         </div>
                         <div>
                             <CiCircleInfo className="h-10 w-10 md:h-12 md:w-12 mb-4" />
-                            <h2 className="text-xl font-bold mb-2 md:text-2xl">Analyze Your Activity</h2>
-                            <p className="text-gray-600 mb-4 md:text-base text-sm">Track your engagement and growth on the platform.</p>
+                            <h2 className="text-xl font-bold mb-2 md:text-2xl">Interests</h2>
+                            <p className="text-gray-600 mb-4 md:text-base text-sm">Showcase your interests, experiences, and personality.</p>
                             <Link className="text-blue-500 hover:underline" href="#">
                                 Learn More
                             </Link>
