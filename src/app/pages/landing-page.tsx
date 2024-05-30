@@ -28,8 +28,8 @@ const Landing_Page = () => {
                             <span className={`${bree_serif.className} text-2xl font-bold`}>Social Net</span>
                         </Link>
                     </div>
-                    <nav className="hidden md:flex items-center space-x-6">
-                        <Link className="hover:underline" href="https://ig-social-net.vercel.app/sign-up">
+                    <nav className="flex items-center space-x-6">
+                        <Link className="hover:underline text-sm md:text-base" href="https://ig-social-net.vercel.app/sign-up">
                             Register
                         </Link>
                     </nav>
