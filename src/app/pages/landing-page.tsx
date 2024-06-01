@@ -29,7 +29,7 @@ const Landing_Page = () => {
                         </Link>
                     </div>
                     <nav className="flex items-center space-x-6">
-                        <Link className="hover:underline text-sm md:text-base" href="https://ig-social-net.vercel.app/sign-up">
+                        <Link className="hover:underline text-sm md:text-base" href="https://ig-social-net.vercel.app">
                             Register
                         </Link>
                     </nav>
