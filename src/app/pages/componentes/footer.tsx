@@ -1,6 +1,6 @@
 //react
-import Link from 'next/link'
 import React from 'react'
+import Footer_Links from './link-footer'
 
 const Footer = () => {
     return (
@@ -11,19 +11,13 @@ const Footer = () => {
                         <h3 className="md:text-lg text-base font-bold mb-4">About</h3>
                         <ul className="space-y-2 md:text-base text-sm">
                             <li>
-                                <Link className="hover:underline" href="#">
-                                    Our Story
-                                </Link>
+                                <Footer_Links valueLink="Our Story" />
                             </li>
                             <li>
-                                <Link className="hover:underline" href="#">
-                                    Team
-                                </Link>
+                                <Footer_Links valueLink="Team" />
                             </li>
                             <li>
-                                <Link className="hover:underline" href="#">
-                                    Careers
-                                </Link>
+                                <Footer_Links valueLink="Careers" />
                             </li>
                         </ul>
                     </div>
@@ -31,19 +25,13 @@ const Footer = () => {
                         <h3 className="md:text-lg text-base font-bold mb-4">Legal</h3>
                         <ul className="space-y-2 md:text-base text-sm">
                             <li>
-                                <Link className="hover:underline" href="#">
-                                    Terms of Service
-                                </Link>
+                                <Footer_Links valueLink="Terms of Service" />
                             </li>
                             <li>
-                                <Link className="hover:underline" href="#">
-                                    Privacy Policy
-                                </Link>
+                                <Footer_Links valueLink="Privacy Policy" />
                             </li>
                             <li>
-                                <Link className="hover:underline" href="#">
-                                    Cookie Policy
-                                </Link>
+                                <Footer_Links valueLink="Cookie Policy" />
                             </li>
                         </ul>
                     </div>
@@ -51,19 +39,13 @@ const Footer = () => {
                         <h3 className="md:text-lg text-base font-bold mb-4">Contact</h3>
                         <ul className="space-y-2 md:text-base text-sm">
                             <li>
-                                <Link className="hover:underline" href="#">
-                                    Support
-                                </Link>
+                                <Footer_Links valueLink="Support" />
                             </li>
                             <li>
-                                <Link className="hover:underline" href="#">
-                                    Partnerships
-                                </Link>
+                                <Footer_Links valueLink="Partnerships" />
                             </li>
                             <li>
-                                <Link className="hover:underline" href="#">
-                                    Press
-                                </Link>
+                                <Footer_Links valueLink="Press" />
                             </li>
                         </ul>
                     </div>
